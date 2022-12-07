@@ -5,6 +5,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+
+# Фикстура с драйвером и переходом на страницу авторизации
 @pytest.fixture(autouse=True)
 def testing():
    pytest.driver = webdriver.Chrome('C:/chromedriver/chromedriver.exe')
@@ -14,6 +16,7 @@ def testing():
    yield
    pytest.driver.quit()
 
+# Фикстура для перехода на страницу мои питомцы   
 @pytest.fixture()
 def go_to_my_pets():
 
