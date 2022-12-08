@@ -31,4 +31,4 @@ def test_show_my_pets():
    # Проверяем что мы оказались на странице "Мои питомцы"
    assert pytest.driver.current_url == 'https://petfriends.skillfactory.ru/my_pets'
 
-# python -m pytest -v --driver Chrome --driver-path /tests_drivers/chromedriver.exe tests/test_show_my_pets.py
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/7-test_show_my_pets.py
