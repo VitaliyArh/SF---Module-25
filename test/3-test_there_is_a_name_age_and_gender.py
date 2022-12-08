@@ -22,4 +22,4 @@ def test_there_is_a_name_age_and_gender(go_to_my_pets):
       assert result == 3
 
 
-# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/test_there_is_a_name_age_and_gender.py
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/3-test_there_is_a_name_age_and_gender.py
