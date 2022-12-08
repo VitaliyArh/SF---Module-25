@@ -31,4 +31,4 @@ def test_all_pets_have_different_names(go_to_my_pets):
    print(r)
    print(pets_name)
 
-# python -m pytest -v --driver Chrome --driver-path c:/chromedriverchromedriver.exe tests/4-test_all_pets_have_different_name.py
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/4-test_all_pets_have_different_name.py
