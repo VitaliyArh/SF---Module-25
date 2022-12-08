@@ -21,6 +21,5 @@ def test_there_is_a_name_age_and_gender(go_to_my_pets):
       result = len(split_data_pet)
       assert result == 3
 
-# python -m pytest -v --driver Chrome --driver-path /tests_drivers/chromedriver.exe tests/test_there_is_a_name_age_and_gender.py
 
-# нужно добавить проверку в тест если имя или порода состоят из двух и более слов через пробел.
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/test_there_is_a_name_age_and_gender.py
