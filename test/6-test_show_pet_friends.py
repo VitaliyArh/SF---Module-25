@@ -39,5 +39,5 @@ def test_show_pet_friends():
       assert len(parts[0]) > 0
       assert len(parts[1]) > 0
 
-# python -m pytest -v --driver Chrome --driver-path /tests_drivers/chromedriver.exe tests/test_show_pet_friends.py
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/6-test_show_pet_friends.py
 
