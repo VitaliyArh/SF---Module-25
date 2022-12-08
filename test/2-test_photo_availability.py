@@ -37,6 +37,6 @@ def test_photo_availability(go_to_my_pets):
    print(f'количество фото: {number_а_photos}')
    print(f'Половина от числа питомцев: {half}')
 
-# python -m pytest -v --driver Chrome --driver-path /tests_drivers/chromedriver.exe tests/test_photo_availability.py
+# python -m pytest -v --driver Chrome --driver-path C:/chromedriver/chromedriver.exe tests/test_all_pets_are_present.py
 # div#all_my_pets > table > tbody > tr > th > img
 # //*[@id="all_my_pets"]/table[1]/tbody[1]/tr[1]/th[1]/img[1]
